@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1672955820343" clover="3.2.0">
+  <project timestamp="1672955820343" name="All files">
+    <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2" elements="5" coveredelements="3" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
+    <file name="Pokemon.ts" path="/Users/benjamin/Code/pokedex/src/core/pokemon/domain/entities/Pokemon.ts">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
