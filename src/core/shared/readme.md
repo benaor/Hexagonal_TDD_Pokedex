@@ -1,0 +1,1 @@
+Ce dossier contient tout ce qu'on peut retrouver dans les autres boundedContext
