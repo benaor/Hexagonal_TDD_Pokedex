@@ -7,8 +7,10 @@ describe("Pokemon", () => {
 
     // Act
     pikachu.setDescription("Pikachu est jaune");
+    pikachu.setImage("Pikachu image");
 
     // Assert
     expect(pikachu.description).toEqual("Pikachu est jaune");
+    expect(pikachu.image).toEqual("Pikachu image");
   });
 });
