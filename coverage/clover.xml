@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1672957977379" clover="3.2.0">
-  <project timestamp="1672957977379" name="All files">
-    <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="10" coveredelements="10" complexity="0" loc="4" ncloc="4" packages="2" files="2" classes="2"/>
-    <package name="entities">
+<coverage generated="1673043227997" clover="3.2.0">
+  <project timestamp="1673043227997" name="All files">
+    <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9" elements="19" coveredelements="19" complexity="0" loc="10" ncloc="10" packages="4" files="4" classes="4"/>
+    <package name="application.repositories">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="InMemoryRepository.ts" path="/Users/benjamin/Code/pokedex/src/core/pokemon/application/repositories/InMemoryRepository.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="application.useCases">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="ViewDetailsOfPokemon.ts" path="/Users/benjamin/Code/pokedex/src/core/pokemon/application/useCases/ViewDetailsOfPokemon.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="domain.entities">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="Pokemon.ts" path="/Users/benjamin/Code/pokedex/src/core/pokemon/domain/entities/Pokemon.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
@@ -10,11 +28,11 @@
         <line num="17" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="useCases">
+    <package name="domain.services">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <file name="PokemonGetter.ts" path="/Users/benjamin/Code/pokedex/src/core/pokemon/domain/useCases/PokemonGetter.ts">
+      <file name="PokemonGetter.ts" path="/Users/benjamin/Code/pokedex/src/core/pokemon/domain/services/PokemonGetter.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
       </file>
     </package>

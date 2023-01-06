@@ -1,18 +1,5 @@
-import { Pokemon } from "../../../../core/pokemon/domain/entities/Pokemon";
-import { PokemonRepository } from "../../../../core/pokemon/domain/gateways/PokemonRepository";
-import { PokemonGetter } from "../../../../core/pokemon/domain/useCases/PokemonGetter";
-
-class InMemoryRepository implements PokemonRepository {
-  getAllPokemon(): Array<Pokemon> {
-    return [
-      new Pokemon(26, "pikachu", ["Electric"]),
-      new Pokemon(6, "dracaufeu", ["Fire", "Flying"]),
-    ];
-  }
-  getPokemonByNumero(numero: number): Pokemon {
-    return new Pokemon(numero, "pikachu", ["Electric"]);
-  }
-}
+import { InMemoryRepository } from "../../../../../core/pokemon/application/repositories/InMemoryRepository";
+import { PokemonGetter } from "../../../../../core/pokemon/domain/services/PokemonGetter";
 
 describe("Display Pokemon Details", () => {
   it("should return pikachu", () => {
@@ -31,7 +18,7 @@ describe("Display Pokemon Details", () => {
     });
   });
 
-  it("should return Array of 2 pikachu", () => {
+  it("should return Array of pikachu and dracaufeu", () => {
     // Arrange
     const inMemoryRepository = new InMemoryRepository();
     const pokemonManager = new PokemonGetter(inMemoryRepository);

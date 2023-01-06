@@ -1,4 +1,4 @@
-import { Pokemon } from "../../../../core/pokemon/domain/entities/Pokemon";
+import { Pokemon } from "../../../../../core/pokemon/domain/entities/Pokemon";
 
 describe("Pokemon", () => {
   it("should set description after instanciation", () => {
