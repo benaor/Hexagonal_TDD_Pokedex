@@ -1,6 +1,6 @@
 import { InMemoryRepository } from "../../../../../core/pokemon/application/repositories/InMemoryRepository";
-import { ViewDetailsOfPokemon } from "../../../../../core/pokemon/application/useCases/ViewDetailsOfPokemon";
-import { ViewListOfAllPokemon } from "../../../../../core/pokemon/application/useCases/ViewListOfAllPokemon";
+import { ViewDetailsOfPokemon } from "../../../../../core/pokemon/application/services/ViewDetailsOfPokemon";
+import { ViewListOfAllPokemon } from "../../../../../core/pokemon/application/services/ViewListOfAllPokemon";
 import { Pokemon } from "../../../../../core/pokemon/domain/entities/Pokemon";
 
 describe("View list of all pokemon", () => {

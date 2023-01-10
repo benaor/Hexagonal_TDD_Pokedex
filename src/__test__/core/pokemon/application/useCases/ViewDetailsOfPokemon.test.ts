@@ -1,5 +1,5 @@
 import { InMemoryRepository } from "../../../../../core/pokemon/application/repositories/InMemoryRepository";
-import { ViewDetailsOfPokemon } from "../../../../../core/pokemon/application/useCases/ViewDetailsOfPokemon";
+import { ViewDetailsOfPokemon } from "../../../../../core/pokemon/application/services/ViewDetailsOfPokemon";
 import { Pokemon } from "../../../../../core/pokemon/domain/entities/Pokemon";
 
 describe("View details of a pokemon", () => {

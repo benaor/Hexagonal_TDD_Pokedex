@@ -1,5 +1,5 @@
 import { InMemoryRepository } from "../../../../../core/pokemon/application/repositories/InMemoryRepository";
-import { PokemonGetter } from "../../../../../core/pokemon/domain/services/PokemonGetter";
+import { PokemonGetter } from "../../../../../core/pokemon/domain/useCases/PokemonGetter";
 
 describe("Display Pokemon Details", () => {
   it("should return pikachu", () => {

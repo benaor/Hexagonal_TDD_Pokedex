@@ -1,4 +1,4 @@
-import { PokemonGetter } from "../../domain/services/PokemonGetter";
+import { PokemonGetter } from "../../domain/useCases/PokemonGetter";
 import { InMemoryRepository } from "../repositories/InMemoryRepository";
 
 export const ViewDetailsOfPokemon = (id: number) => {
